@@ -1,0 +1,50 @@
+package com.crm.objectrepositoryLib;
+
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+
+import com.Com.GenericLib.CommonUtils;
+import com.Com.GenericLib.WebdriverCommonLib;
+
+public class Organisations extends WebdriverCommonLib {
+	@FindBy(xpath="//img[@title='Create Organization...']") 
+	WebElement createOrganisonImage;
+	
+	@FindBy(name="search_text") 
+	WebElement orgNameSearchEdtParentOrg;
+    
+	@FindBy(xpath="//input[@class='crmbutton small create'and@name='submit']") 
+	WebElement searchBtn;
+	
+	@FindBy(id="bas_searchfield") WebElement SearchType;
+	
+	@FindBy(xpath="(//a[@title='Organizations']/../../td[1]/input)[1]") 
+	WebElement orgCheckBox;
+	
+	@FindBy(xpath="//input[@class='crmbutton small delete']") 
+	WebElement deleteBtn;
+	public void searchOrganisationName(String orgnisationName) throws Throwable
+	{
+		System.out.println(orgnisationName);
+		selectFromDropDown(SearchType, "Organization Name");
+//		waitForElement(orgNameSerachEdt);
+		Thread.sleep(7000);
+		orgNameSearchEdtParentOrg.sendKeys(orgnisationName);
+		searchBtn.click();
+		
+	}
+	public void navigateToCreateNewOrganiZation()
+	{
+		waitForElement(createOrganisonImage);
+		createOrganisonImage.click();	
+	}
+	public void deleteOrganisation()
+	{
+		waitForElement(orgCheckBox);
+		orgCheckBox.click();
+		deleteBtn.click();
+		handleAlert();
+		System.out.println("organisation deleted");
+	}
+
+}

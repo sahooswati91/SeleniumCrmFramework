@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" name="Failed suite [Crm]" parallel="tests">
+  <test name="Test2(failed)" parallel="tests">
+    <classes>
+      <class name="com.Com.OrganizationTest.CreateOganisationTest">
+        <methods>
+          <include name="createOganisationTest"/>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+          <include name="configBrowserClose"/>
+        </methods>
+      </class> <!-- com.Com.OrganizationTest.CreateOganisationTest -->
+      <class name="crm.Crm.ContactTest.CreateContactTest">
+        <methods>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+        </methods>
+      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Crm] -->

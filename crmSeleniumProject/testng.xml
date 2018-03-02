@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="crm.Crm.ContactTest.CreateContactTest"/>
+      <class name="com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest"/>
+      <class name="com.Com.OrganizationTest.CreateOganisationTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

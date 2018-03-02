@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <include name="smoketest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="crm.Crm.ContactTest.CreateContactTest">
+        <methods>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+          <include name="configBrowserClose"/>
+        </methods>
+      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
+      <class name="com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest">
+        <methods>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+          <include name="configBrowserClose"/>
+        </methods>
+      </class> <!-- com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest -->
+      <class name="com.Com.OrganizationTest.CreateOganisationTest">
+        <methods>
+          <include name="createOganisationTest"/>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+        </methods>
+      </class> <!-- com.Com.OrganizationTest.CreateOganisationTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
