@@ -31,14 +31,15 @@ public class Contacts extends WebdriverCommonLib {
 		waitForElement(searchContactDropDown);
 		selectFromDropDown(searchContactDropDown, contactType);
 	}
-	public void searchContactName(String lastNameContact)
+	public void searchContactName(String lastNameContact) throws InterruptedException
 	{
 		waitForElement(searchContactEdt);
 		searchContactEdt.sendKeys(lastNameContact);
 		waitForElement(searchContactBtn);
 		searchContactBtn.click();
+		Thread.sleep(2000);
 		BaseClass.driver.findElement(By.linkText(lastNameContact)).click();
-		handleAlert();
+//		handleAlert();
 	}
 	
 	

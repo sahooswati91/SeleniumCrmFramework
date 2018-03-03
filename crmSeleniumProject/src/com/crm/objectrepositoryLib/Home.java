@@ -14,7 +14,9 @@ public class Home extends WebdriverCommonLib{
 	public void navigateToContact()
 	 {
 		 waitForElement(contactLink);
-		 contactLink.click(); 
+		 contactLink.click();
+//		 handleAlert();
+		 
 	 }
 	 public void navigateToOrganisation()
 	 {

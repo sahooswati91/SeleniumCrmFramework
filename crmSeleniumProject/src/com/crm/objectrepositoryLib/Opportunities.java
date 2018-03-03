@@ -19,6 +19,13 @@ public class Opportunities extends WebdriverCommonLib {
 	
     @FindBy(xpath="//input[@class='crmbutton small create'and@name='submit']")
     WebElement searchOppBtn;
+    
+    @FindBy(xpath="//span[@class='genHeaderSmall']")
+	WebElement noOppFoundMsg;
+	
+	public WebElement getNoOppFoundMsg() {
+		return noOppFoundMsg;
+	}
 	
 	public void navigateToCreateNewOpportunities()
 	{
@@ -30,14 +37,15 @@ public class Opportunities extends WebdriverCommonLib {
 		waitForElement(oppSearchDropDown);
 		selectFromDropDown(oppSearchDropDown,orgType);
 	}
-	public void searchOppName(String opportunityName)
+	public void searchOppName(String opportunityName) throws InterruptedException
 	{
 		waitForElement(oppSearchEdt);
 		oppSearchEdt.sendKeys(opportunityName);
 		waitForElement(searchOppBtn);
 		searchOppBtn.click();
-		BaseClass.driver.findElement(By.linkText(opportunityName)).click();
-		handleAlert();
+		Thread.sleep(2000);
+//		BaseClass.driver.findElement(By.linkText(opportunityName)).click();
+//		handleAlert();
 	}
 	
 

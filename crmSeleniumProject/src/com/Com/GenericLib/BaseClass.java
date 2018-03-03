@@ -52,6 +52,7 @@ public class BaseClass {
 	@BeforeMethod(groups={"regressiontest","smoketest"})
 	public void configLogin() throws Throwable
 	{
+		driver.manage().window().maximize();
 //		create object of commonutils class
 		System.out.println("in configLogin");
 		CommonUtils lib=new CommonUtils();
@@ -65,8 +66,7 @@ public class BaseClass {
 //		Step:1 log in to application
 		LogIn loginpage=PageFactory.initElements(driver, LogIn.class);
 		loginpage.logIn(username, password);
-		
-	}
+		}
 	@AfterMethod(groups={"regressiontest","smoketest"})
 	public void configLogout() throws Throwable
 	{

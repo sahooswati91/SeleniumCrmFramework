@@ -73,7 +73,7 @@ public class WebdriverCommonLib {
 		r.keyPress(KeyEvent.VK_V);
 		r.keyRelease(KeyEvent.VK_CONTROL);
 		r.keyRelease(KeyEvent.VK_V);
-		Thread.sleep(4000);
+		Thread.sleep(6000);
 		r.keyPress(KeyEvent.VK_ENTER);
 		r.keyRelease(KeyEvent.VK_ENTER);
 	}

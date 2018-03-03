@@ -23,6 +23,8 @@ public class Organisations extends WebdriverCommonLib {
 	
 	@FindBy(xpath="//input[@class='crmbutton small delete']") 
 	WebElement deleteBtn;
+	
+	
 	public void searchOrganisationName(String orgnisationName) throws Throwable
 	{
 		System.out.println(orgnisationName);
@@ -31,6 +33,7 @@ public class Organisations extends WebdriverCommonLib {
 		Thread.sleep(7000);
 		orgNameSearchEdtParentOrg.sendKeys(orgnisationName);
 		searchBtn.click();
+		Thread.sleep(3000);
 		
 	}
 	public void navigateToCreateNewOrganiZation()
@@ -38,10 +41,12 @@ public class Organisations extends WebdriverCommonLib {
 		waitForElement(createOrganisonImage);
 		createOrganisonImage.click();	
 	}
-	public void deleteOrganisation()
+	public void deleteOrganisation() throws InterruptedException
 	{
-		waitForElement(orgCheckBox);
+//		waitForElement(orgCheckBox);
+		Thread.sleep(2000);
 		orgCheckBox.click();
+		Thread.sleep(2000);
 		deleteBtn.click();
 		handleAlert();
 		System.out.println("organisation deleted");

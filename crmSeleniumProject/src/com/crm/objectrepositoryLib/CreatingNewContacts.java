@@ -51,6 +51,7 @@ public class CreatingNewContacts extends WebdriverCommonLib {
 		imageForContact.click();
 		fileUploading(imagePath);
 //		waitForElement(newContactPageSaveBtn);
+		Thread.sleep(2000);
 		newContactPageSaveBtn.click();
 		
 		

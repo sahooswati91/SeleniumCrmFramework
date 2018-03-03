@@ -4,8 +4,8 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="crm.Crm.ContactTest.CreateContactTest"/>
-      <class name="com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest"/>
       <class name="com.Com.OrganizationTest.CreateOganisationTest"/>
+      <class name="com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

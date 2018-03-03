@@ -37,20 +37,26 @@ import com.crm.objectrepositoryLib.Home;
 public class CreateContactTest extends BaseClass {
 	@Test (groups="smoketest",priority=1)
         public void createContact() throws Throwable{
+		System.out.println("=======Create Contact Test========");
 		  CommonUtils lib=new CommonUtils();
 //		step:2  get data from excel sheet
+		System.out.println("step:2  get data from excel sheet");
 		String lastName=lib.returnData("Sheet1",1,2);
 		System.out.println(lastName);
 //		step:3 navigate to contact
+		System.out.println("step:3 navigate to contact");
 		Home homepage=PageFactory.initElements(driver, Home.class);
 		homepage.navigateToContact();
 //		step:4 create new contact
+		System.out.println("step:4 create new contact");
 		Contacts contactsPage=PageFactory.initElements(driver, Contacts.class);
 		contactsPage.navigateToCreateNewContacts();
 		CreatingNewContacts creatingNewContactspage=PageFactory.initElements(driver,CreatingNewContacts.class);
 		creatingNewContactspage.createContact(lastName);
 //		step:5 verification
+		System.out.println("step:5 verification");
 //		step:6 navigate to contact information page
+		System.out.println("step:6 navigate to contact information page");
 		ContactInformation cinfoPage=PageFactory.initElements(driver, ContactInformation.class);
 		String expectedContact=cinfoPage.getLastnameContactInfo().getText();
 		SoftAssert a1=new SoftAssert();
@@ -60,21 +66,27 @@ public class CreateContactTest extends BaseClass {
 	}
 	@Test (groups="regressiontest",priority=2)
 public static void createContactwithimageTest() throws Throwable {
+		System.out.println("=======create Contact with imageTest========");
 		CommonUtils lib=new CommonUtils();
 //      step:2 get data from excel file
+		System.out.println("step:2 get data from excel file");
 		String lastName=lib.returnData("Sheet1",2,2);
 		String imgPath=lib.returnData("Sheet1",2,9);
 //		step:3 navigate to contact
+		System.out.println("step:3 navigate to contact");
 		Home homepage=PageFactory.initElements(driver, Home.class);
 		homepage.navigateToContact();
 //		step:4 create new contact
+		System.out.println("step:4 create new contact");
 		Contacts contactsPage=PageFactory.initElements(driver, Contacts.class);
 		contactsPage.navigateToCreateNewContacts();
 		CreatingNewContacts creatingNewContactspage=PageFactory.initElements(driver,CreatingNewContacts.class);
 //		step:5 create contact with image
+		System.out.println("step:5 create contact with image");
 		creatingNewContactspage.createContactWithImage(lastName, imgPath);
 //		step:6 verification
 //		step:7 navigate to contact information page
+		System.out.println("step:7 navigate to contact information page");
 		ContactInformation contactInformationPage=PageFactory.initElements(driver,ContactInformation.class );
 		String actualLastname=contactInformationPage.getLastnameContactInfo().getText();
 		SoftAssert a2=new SoftAssert();
@@ -89,26 +101,34 @@ public static void createContactwithimageTest() throws Throwable {
 	@Test (groups="regressiontest",priority=3)
 	public static void createContactWithOrganisationTest() throws Throwable {
 		// TODO Auto-generated method stub
+		System.out.println("=======create Contact With Organisation Test========");
 		 CommonUtils lib=new CommonUtils();
 //		step:2 get data from excel file
+		 System.out.println("step:2 get data from excel file");
+		System.out.println("step:2 get data from excel file");
 		String lastName=lib.returnData("Sheet1",3,2);
 		String orgName=lib.returnData("Sheet1",3,4);
 //      step:3 create organisation
+		System.out.println("step:3 create organisation");
 		driver.findElement(By.xpath("//a[text()='Organizations']")).click();
 		driver.findElement(By.xpath("//img[@title='Create Organization...']")).click();
 		driver.findElement(By.name("accountname")).sendKeys(orgName);
 		driver.findElement(By.xpath("//input[@class='crmbutton small save']")).click();
 		System.out.println("organisation created successfullly");
 //		step:4 navigate to contact
+		System.out.println("step:4 navigate to contact");
 		Home homepage=PageFactory.initElements(driver, Home.class);
 		homepage.navigateToContact();
 //		step:5 create new contact
+		System.out.println("step:5 create new contact");
 		Contacts contactsPage=PageFactory.initElements(driver, Contacts.class);
 		contactsPage.navigateToCreateNewContacts();
 		CreatingNewContacts creatingNewContactspage=PageFactory.initElements(driver,CreatingNewContacts.class);
 		creatingNewContactspage.createContact(lastName, orgName);
 //		step:6 verification
+		System.out.println("step:6 verification");
 //		step:7 navigate to contact information page
+		System.out.println("step:7 navigate to contact information page");
 		ContactInformation cinfoPage=PageFactory.initElements(driver, ContactInformation.class);
 		String actualContact=cinfoPage.getLastnameContactInfo().getText();
 		String actualOrgname=cinfoPage.getOrganisationWithContact().getText();
