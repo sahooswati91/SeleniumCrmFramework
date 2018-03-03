@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.Com.GenericLib.BaseClass;
-import com.Com.GenericLib.WebdriverCommonLib;
+import com.crm.GenericLib.BaseClass;
+import com.crm.GenericLib.WebdriverCommonLib;
 
 public class Contacts extends WebdriverCommonLib {
 	@FindBy(xpath="//img[@title='Create Contact...']") 
@@ -39,7 +39,6 @@ public class Contacts extends WebdriverCommonLib {
 		searchContactBtn.click();
 		Thread.sleep(2000);
 		BaseClass.driver.findElement(By.linkText(lastNameContact)).click();
-//		handleAlert();
 	}
 	
 	

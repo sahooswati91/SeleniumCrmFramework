@@ -1,17 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
-  <test name="Default test(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="Test(failed)">
     <classes>
-      <class name="crm.Crm.ContactTest.CreateContactTest">
+      <class name="com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest">
         <methods>
-          <include name="createContactWithOrganisationTest"/>
+          <include name="DeleteOrgWhenOrgContainsContact_OppTest"/>
+          <include name="createOpertunity_using_org_campaignTest"/>
+        </methods>
+      </class> <!-- com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest -->
+      <class name="com.crm.OrganizationTest.CreateOganisationTest">
+        <methods>
           <include name="configLunchBrowser"/>
           <include name="configLogout"/>
           <include name="configLogin"/>
-          <include name="createContactwithimageTest"/>
+          <include name="configBrowserClose"/>
         </methods>
-      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
+      </class> <!-- com.crm.OrganizationTest.CreateOganisationTest -->
+      <class name="com.crm.ContactTest.CreateContactTest">
+        <methods>
+          <include name="createContactwithimageTest"/>
+          <include name="configLunchBrowser"/>
+          <include name="configLogout"/>
+          <include name="configLogin"/>
+          <include name="createContactWithOrganisationTest"/>
+        </methods>
+      </class> <!-- com.crm.ContactTest.CreateContactTest -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -3,8 +3,8 @@ package com.crm.objectrepositoryLib;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.Com.GenericLib.CommonUtils;
-import com.Com.GenericLib.WebdriverCommonLib;
+import com.crm.GenericLib.CommonUtils;
+import com.crm.GenericLib.WebdriverCommonLib;
 
 public class Organisations extends WebdriverCommonLib {
 	@FindBy(xpath="//img[@title='Create Organization...']") 

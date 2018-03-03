@@ -4,8 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
-import com.Com.GenericLib.BaseClass;
-import com.Com.GenericLib.WebdriverCommonLib;
+import com.crm.GenericLib.BaseClass;
+import com.crm.GenericLib.WebdriverCommonLib;
 
 public class Opportunities extends WebdriverCommonLib {
 	@FindBy(xpath="//img[@title='Create Opportunity...']") 
@@ -44,8 +44,6 @@ public class Opportunities extends WebdriverCommonLib {
 		waitForElement(searchOppBtn);
 		searchOppBtn.click();
 		Thread.sleep(2000);
-//		BaseClass.driver.findElement(By.linkText(opportunityName)).click();
-//		handleAlert();
 	}
 	
 

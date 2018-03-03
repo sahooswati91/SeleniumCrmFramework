@@ -1,8 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
+      <![CDATA[=======create Oganisation Test========]]>
+    </line>
+    <line>
+      <![CDATA[step:2 get data from excel file]]>
+    </line>
+    <line>
+      <![CDATA[step:3 navigate to organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:4 create new organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:5 verification]]>
+    </line>
+    <line>
+      <![CDATA[step:6 navigate to Organisation Information]]>
+    </line>
+    <line>
+      <![CDATA[Organisation created successfully==pass]]>
+    </line>
+    <line>
+      <![CDATA[=======create Organisation With Industry Test========]]>
+    </line>
+    <line>
+      <![CDATA[step:2 get data from excel file]]>
+    </line>
+    <line>
+      <![CDATA[step:3 navigate to organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:4 create new organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:5 verification]]>
+    </line>
+    <line>
+      <![CDATA[step:6 navigate to organisation info page]]>
+    </line>
+    <line>
+      <![CDATA[organisation with banking type created successfully==pass]]>
+    </line>
+    <line>
+      <![CDATA[=======Create Contact Test========]]>
+    </line>
+    <line>
+      <![CDATA[step:2  get data from excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[16swati10]]>
+    </line>
+    <line>
+      <![CDATA[step:3 navigate to contact]]>
+    </line>
+    <line>
+      <![CDATA[step:4 create new contact]]>
+    </line>
+    <line>
+      <![CDATA[step:5 verification]]>
+    </line>
+    <line>
+      <![CDATA[step:6 navigate to contact information page]]>
+    </line>
+    <line>
       <![CDATA[Contact created successfully==pass]]>
+    </line>
+    <line>
+      <![CDATA[=======create Contact with imageTest========]]>
+    </line>
+    <line>
+      <![CDATA[step:2 get data from excel file]]>
+    </line>
+    <line>
+      <![CDATA[step:3 navigate to contact]]>
+    </line>
+    <line>
+      <![CDATA[step:4 create new contact]]>
+    </line>
+    <line>
+      <![CDATA[step:5 create contact with image]]>
+    </line>
+    <line>
+      <![CDATA[step:7 navigate to contact information page]]>
     </line>
     <line>
       <![CDATA[Contact created successfully==pass]]>
@@ -11,49 +92,473 @@
       <![CDATA[Contact created with image==pass]]>
     </line>
     <line>
+      <![CDATA[=======create Contact With Organisation Test========]]>
+    </line>
+    <line>
+      <![CDATA[step:2 get data from excel file]]>
+    </line>
+    <line>
+      <![CDATA[step:3 create organisation]]>
+    </line>
+    <line>
+      <![CDATA[organisation created successfullly]]>
+    </line>
+    <line>
+      <![CDATA[step:4 navigate to contact]]>
+    </line>
+    <line>
+      <![CDATA[step:5 create new contact]]>
+    </line>
+    <line>
+      <![CDATA[step:6 verification]]>
+    </line>
+    <line>
+      <![CDATA[step:7 navigate to contact information page]]>
+    </line>
+    <line>
       <![CDATA[Contact created successfully==pass]]>
     </line>
     <line>
       <![CDATA[Organisation created successfully==pass]]>
     </line>
+    <line>
+      <![CDATA[=========createOpertunity_using_org_campaignTest=====]]>
+    </line>
+    <line>
+      <![CDATA[step:2 get data from excel sheet]]>
+    </line>
+    <line>
+      <![CDATA[got data from excel successfully]]>
+    </line>
+    <line>
+      <![CDATA[step:3 navigate to campaign]]>
+    </line>
+    <line>
+      <![CDATA[step:4 create new campaign]]>
+    </line>
+    <line>
+      <![CDATA[step:5 navigate to organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:6 create new organisation]]>
+    </line>
+    <line>
+      <![CDATA[step:7 navigate to opportunity]]>
+    </line>
+    <line>
+      <![CDATA[step:8 create opportunity]]>
+    </line>
+    <line>
+      <![CDATA[step:9 verification]]>
+    </line>
+    <line>
+      <![CDATA[step:10 navigate to opportunityInfo page]]>
+    </line>
+    <line>
+      <![CDATA[Opportuuty with org and campaign created==pass]]>
+    </line>
+    <line>
+      <![CDATA[=========Delete_Org_WhenOrgContains_Contact_OppTest=========]]>
+    </line>
+    <line>
+      <![CDATA[Step:2 get data from excel file]]>
+    </line>
+    <line>
+      <![CDATA[Step:3 navigate to organisation]]>
+    </line>
+    <line>
+      <![CDATA[Step:4 create new organisation]]>
+    </line>
+    <line>
+      <![CDATA[organisation created successfullly]]>
+    </line>
+    <line>
+      <![CDATA[Step:5 navigate to contact]]>
+    </line>
+    <line>
+      <![CDATA[Step:6 create new contact]]>
+    </line>
+    <line>
+      <![CDATA[contact with organisation created successfully]]>
+    </line>
+    <line>
+      <![CDATA[//navigate to opportunity]]>
+    </line>
+    <line>
+      <![CDATA[//Step:7 create opportunity]]>
+    </line>
+    <line>
+      <![CDATA[//Step:8 go to organisation window from create opportunity window]]>
+    </line>
+    <line>
+      <![CDATA[Opportunity with organisation saved successfully]]>
+    </line>
+    <line>
+      <![CDATA[//Step:9 navigate to organisation again]]>
+    </line>
+    <line>
+      <![CDATA[//Step:10 search organisation name]]>
+    </line>
+    <line>
+      <![CDATA[76lavie2555969204]]>
+    </line>
+    <line>
+      <![CDATA[//Step:11 click on organisation check box and delete]]>
+    </line>
+    <line>
+      <![CDATA[//Step:12 verify contact for that organisation exists]]>
+    </line>
+    <line>
+      <![CDATA[//Step:13 navigate to contact]]>
+    </line>
+    <line>
+      <![CDATA[//Step:14 select lastname for search]]>
+    </line>
+    <line>
+      <![CDATA[//Step:15 type contact name in searchbox and search]]>
+    </line>
+    <line>
+      <![CDATA[//step:16 verificaton for organisation from contact]]>
+    </line>
+    <line>
+      <![CDATA[actual org name=]]>
+    </line>
+    <line>
+      <![CDATA[Contact still exists==pass]]>
+    </line>
+    <line>
+      <![CDATA[Organisation got deleted==pass]]>
+    </line>
+    <line>
+      <![CDATA[//step:17 navigate to opportunity]]>
+    </line>
+    <line>
+      <![CDATA[//step:18 click on opportunity name from dropdown]]>
+    </line>
+    <line>
+      <![CDATA[//step:19 type opportunityname in search]]>
+    </line>
+    <line>
+      <![CDATA[//step:20  verification for opportunity]]>
+    </line>
+    <line>
+      <![CDATA[Opportunity got deleted==pass]]>
+    </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="95890" started-at="2018-03-02T20:07:34Z" finished-at="2018-03-02T20:09:09Z">
+  <suite name="Suite" duration-ms="304912" started-at="2018-03-03T07:29:00Z" finished-at="2018-03-03T07:34:05Z">
     <groups>
       <group name="regressiontest">
-        <method signature="CreateContactTest.createContactWithOrganisationTest()[pri:3, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContactWithOrganisationTest" class="crm.Crm.ContactTest.CreateContactTest"/>
-        <method signature="CreateContactTest.createContactwithimageTest()[pri:2, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContactwithimageTest" class="crm.Crm.ContactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactWithOrganisationTest()[pri:3, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContactWithOrganisationTest" class="com.crm.ContactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContactwithimageTest()[pri:2, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContactwithimageTest" class="com.crm.ContactTest.CreateContactTest"/>
+        <method signature="CreateOganisationTest.createOganisationTest()[pri:4, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="createOganisationTest" class="com.crm.OrganizationTest.CreateOganisationTest"/>
+        <method signature="CreateOganisationTest.createOrganisationWithIndustryTest()[pri:5, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="createOrganisationWithIndustryTest" class="com.crm.OrganizationTest.CreateOganisationTest"/>
+        <method signature="CreateOpertunity_using_org_campaignTest.DeleteOrgWhenOrgContainsContact_OppTest()[pri:7, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="DeleteOrgWhenOrgContainsContact_OppTest" class="com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest"/>
       </group> <!-- regressiontest -->
       <group name="smoketest">
-        <method signature="CreateContactTest.createContact()[pri:1, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContact" class="crm.Crm.ContactTest.CreateContactTest"/>
+        <method signature="CreateContactTest.createContact()[pri:1, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContact" class="com.crm.ContactTest.CreateContactTest"/>
+        <method signature="CreateOganisationTest.createOganisationTest()[pri:4, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="createOganisationTest" class="com.crm.OrganizationTest.CreateOganisationTest"/>
+        <method signature="CreateOpertunity_using_org_campaignTest.createOpertunity_using_org_campaignTest()[pri:6, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="createOpertunity_using_org_campaignTest" class="com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest"/>
       </group> <!-- smoketest -->
     </groups>
-    <test name="Default test" duration-ms="95890" started-at="2018-03-02T20:07:34Z" finished-at="2018-03-02T20:09:09Z">
-      <class name="crm.Crm.ContactTest.CreateContactTest">
-        <test-method status="PASS" signature="configLunchBrowser()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLunchBrowser" is-config="true" duration-ms="6772" started-at="2018-03-03T01:37:34Z" finished-at="2018-03-03T01:37:40Z">
+    <test name="Test" duration-ms="304912" started-at="2018-03-03T07:29:00Z" finished-at="2018-03-03T07:34:05Z">
+      <class name="com.crm.OrganizationTest.CreateOganisationTest">
+        <test-method status="PASS" signature="configLunchBrowser()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configLunchBrowser" is-config="true" duration-ms="6926" started-at="2018-03-03T12:59:01Z" finished-at="2018-03-03T12:59:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLunchBrowser -->
-        <test-method status="PASS" signature="configLogin()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogin" is-config="true" duration-ms="4084" started-at="2018-03-03T01:37:40Z" finished-at="2018-03-03T01:37:44Z">
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configLogin" is-config="true" duration-ms="4403" started-at="2018-03-03T12:59:07Z" finished-at="2018-03-03T12:59:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogin -->
-        <test-method status="PASS" signature="createContact()[pri:1, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContact" duration-ms="13063" started-at="2018-03-03T01:37:44Z" finished-at="2018-03-03T01:37:57Z">
+        <test-method status="PASS" signature="createOganisationTest()[pri:4, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="createOganisationTest" duration-ms="13490" started-at="2018-03-03T12:59:12Z" finished-at="2018-03-03T12:59:25Z">
           <reporter-output>
+            <line>
+              <![CDATA[=======create Oganisation Test========]]>
+            </line>
+            <line>
+              <![CDATA[step:2 get data from excel file]]>
+            </line>
+            <line>
+              <![CDATA[step:3 navigate to organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:4 create new organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:5 verification]]>
+            </line>
+            <line>
+              <![CDATA[step:6 navigate to Organisation Information]]>
+            </line>
+            <line>
+              <![CDATA[Organisation created successfully==pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOganisationTest -->
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configLogout" is-config="true" duration-ms="4307" started-at="2018-03-03T12:59:25Z" finished-at="2018-03-03T12:59:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogout -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configLogin" is-config="true" duration-ms="4135" started-at="2018-03-03T12:59:30Z" finished-at="2018-03-03T12:59:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="createOrganisationWithIndustryTest()[pri:5, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="createOrganisationWithIndustryTest" duration-ms="13981" started-at="2018-03-03T12:59:34Z" finished-at="2018-03-03T12:59:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======create Organisation With Industry Test========]]>
+            </line>
+            <line>
+              <![CDATA[step:2 get data from excel file]]>
+            </line>
+            <line>
+              <![CDATA[step:3 navigate to organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:4 create new organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:5 verification]]>
+            </line>
+            <line>
+              <![CDATA[step:6 navigate to organisation info page]]>
+            </line>
+            <line>
+              <![CDATA[organisation with banking type created successfully==pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOrganisationWithIndustryTest -->
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configLogout" is-config="true" duration-ms="4353" started-at="2018-03-03T12:59:48Z" finished-at="2018-03-03T12:59:52Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogout -->
+        <test-method status="PASS" signature="configBrowserClose()[pri:0, instance:com.crm.OrganizationTest.CreateOganisationTest@3532ec19]" name="configBrowserClose" is-config="true" duration-ms="936" started-at="2018-03-03T12:59:52Z" finished-at="2018-03-03T12:59:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrowserClose -->
+      </class> <!-- com.crm.OrganizationTest.CreateOganisationTest -->
+      <class name="com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest">
+        <test-method status="PASS" signature="configLunchBrowser()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configLunchBrowser" is-config="true" duration-ms="7286" started-at="2018-03-03T13:01:29Z" finished-at="2018-03-03T13:01:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLunchBrowser -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configLogin" is-config="true" duration-ms="4654" started-at="2018-03-03T13:01:37Z" finished-at="2018-03-03T13:01:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="createOpertunity_using_org_campaignTest()[pri:6, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="createOpertunity_using_org_campaignTest" duration-ms="43417" started-at="2018-03-03T13:01:41Z" finished-at="2018-03-03T13:02:25Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========createOpertunity_using_org_campaignTest=====]]>
+            </line>
+            <line>
+              <![CDATA[step:2 get data from excel sheet]]>
+            </line>
+            <line>
+              <![CDATA[got data from excel successfully]]>
+            </line>
+            <line>
+              <![CDATA[step:3 navigate to campaign]]>
+            </line>
+            <line>
+              <![CDATA[step:4 create new campaign]]>
+            </line>
+            <line>
+              <![CDATA[step:5 navigate to organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:6 create new organisation]]>
+            </line>
+            <line>
+              <![CDATA[step:7 navigate to opportunity]]>
+            </line>
+            <line>
+              <![CDATA[step:8 create opportunity]]>
+            </line>
+            <line>
+              <![CDATA[step:9 verification]]>
+            </line>
+            <line>
+              <![CDATA[step:10 navigate to opportunityInfo page]]>
+            </line>
+            <line>
+              <![CDATA[Opportuuty with org and campaign created==pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- createOpertunity_using_org_campaignTest -->
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configLogout" is-config="true" duration-ms="4337" started-at="2018-03-03T13:02:25Z" finished-at="2018-03-03T13:02:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogout -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configLogin" is-config="true" duration-ms="4073" started-at="2018-03-03T13:02:29Z" finished-at="2018-03-03T13:02:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="DeleteOrgWhenOrgContainsContact_OppTest()[pri:7, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="DeleteOrgWhenOrgContainsContact_OppTest" duration-ms="87069" started-at="2018-03-03T13:02:33Z" finished-at="2018-03-03T13:04:00Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=========Delete_Org_WhenOrgContains_Contact_OppTest=========]]>
+            </line>
+            <line>
+              <![CDATA[Step:2 get data from excel file]]>
+            </line>
+            <line>
+              <![CDATA[Step:3 navigate to organisation]]>
+            </line>
+            <line>
+              <![CDATA[Step:4 create new organisation]]>
+            </line>
+            <line>
+              <![CDATA[organisation created successfullly]]>
+            </line>
+            <line>
+              <![CDATA[Step:5 navigate to contact]]>
+            </line>
+            <line>
+              <![CDATA[Step:6 create new contact]]>
+            </line>
+            <line>
+              <![CDATA[contact with organisation created successfully]]>
+            </line>
+            <line>
+              <![CDATA[//navigate to opportunity]]>
+            </line>
+            <line>
+              <![CDATA[//Step:7 create opportunity]]>
+            </line>
+            <line>
+              <![CDATA[//Step:8 go to organisation window from create opportunity window]]>
+            </line>
+            <line>
+              <![CDATA[Opportunity with organisation saved successfully]]>
+            </line>
+            <line>
+              <![CDATA[//Step:9 navigate to organisation again]]>
+            </line>
+            <line>
+              <![CDATA[//Step:10 search organisation name]]>
+            </line>
+            <line>
+              <![CDATA[76lavie2555969204]]>
+            </line>
+            <line>
+              <![CDATA[//Step:11 click on organisation check box and delete]]>
+            </line>
+            <line>
+              <![CDATA[//Step:12 verify contact for that organisation exists]]>
+            </line>
+            <line>
+              <![CDATA[//Step:13 navigate to contact]]>
+            </line>
+            <line>
+              <![CDATA[//Step:14 select lastname for search]]>
+            </line>
+            <line>
+              <![CDATA[//Step:15 type contact name in searchbox and search]]>
+            </line>
+            <line>
+              <![CDATA[//step:16 verificaton for organisation from contact]]>
+            </line>
+            <line>
+              <![CDATA[actual org name=]]>
+            </line>
+            <line>
+              <![CDATA[Contact still exists==pass]]>
+            </line>
+            <line>
+              <![CDATA[Organisation got deleted==pass]]>
+            </line>
+            <line>
+              <![CDATA[//step:17 navigate to opportunity]]>
+            </line>
+            <line>
+              <![CDATA[//step:18 click on opportunity name from dropdown]]>
+            </line>
+            <line>
+              <![CDATA[//step:19 type opportunityname in search]]>
+            </line>
+            <line>
+              <![CDATA[//step:20  verification for opportunity]]>
+            </line>
+            <line>
+              <![CDATA[Opportunity got deleted==pass]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- DeleteOrgWhenOrgContainsContact_OppTest -->
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configLogout" is-config="true" duration-ms="4290" started-at="2018-03-03T13:04:00Z" finished-at="2018-03-03T13:04:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogout -->
+        <test-method status="PASS" signature="configBrowserClose()[pri:0, instance:com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest@ae45eb6]" name="configBrowserClose" is-config="true" duration-ms="983" started-at="2018-03-03T13:04:04Z" finished-at="2018-03-03T13:04:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBrowserClose -->
+      </class> <!-- com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest -->
+      <class name="com.crm.ContactTest.CreateContactTest">
+        <test-method status="PASS" signature="configLunchBrowser()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLunchBrowser" is-config="true" duration-ms="7118" started-at="2018-03-03T12:59:53Z" finished-at="2018-03-03T13:00:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLunchBrowser -->
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogin" is-config="true" duration-ms="4110" started-at="2018-03-03T13:00:00Z" finished-at="2018-03-03T13:00:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configLogin -->
+        <test-method status="PASS" signature="createContact()[pri:1, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContact" duration-ms="13268" started-at="2018-03-03T13:00:04Z" finished-at="2018-03-03T13:00:18Z">
+          <reporter-output>
+            <line>
+              <![CDATA[=======Create Contact Test========]]>
+            </line>
+            <line>
+              <![CDATA[step:2  get data from excel sheet]]>
+            </line>
+            <line>
+              <![CDATA[16swati10]]>
+            </line>
+            <line>
+              <![CDATA[step:3 navigate to contact]]>
+            </line>
+            <line>
+              <![CDATA[step:4 create new contact]]>
+            </line>
+            <line>
+              <![CDATA[step:5 verification]]>
+            </line>
+            <line>
+              <![CDATA[step:6 navigate to contact information page]]>
+            </line>
             <line>
               <![CDATA[Contact created successfully==pass]]>
             </line>
           </reporter-output>
         </test-method> <!-- createContact -->
-        <test-method status="PASS" signature="configLogout()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogout" is-config="true" duration-ms="4305" started-at="2018-03-03T01:37:57Z" finished-at="2018-03-03T01:38:02Z">
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogout" is-config="true" duration-ms="4306" started-at="2018-03-03T13:00:18Z" finished-at="2018-03-03T13:00:22Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogout -->
-        <test-method status="PASS" signature="configLogin()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogin" is-config="true" duration-ms="4026" started-at="2018-03-03T01:38:02Z" finished-at="2018-03-03T01:38:06Z">
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogin" is-config="true" duration-ms="3885" started-at="2018-03-03T13:00:22Z" finished-at="2018-03-03T13:00:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogin -->
-        <test-method status="PASS" signature="createContactwithimageTest()[pri:2, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContactwithimageTest" duration-ms="27425" started-at="2018-03-03T01:38:06Z" finished-at="2018-03-03T01:38:33Z">
+        <test-method status="PASS" signature="createContactwithimageTest()[pri:2, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContactwithimageTest" duration-ms="28210" started-at="2018-03-03T13:00:26Z" finished-at="2018-03-03T13:00:54Z">
           <reporter-output>
+            <line>
+              <![CDATA[=======create Contact with imageTest========]]>
+            </line>
+            <line>
+              <![CDATA[step:2 get data from excel file]]>
+            </line>
+            <line>
+              <![CDATA[step:3 navigate to contact]]>
+            </line>
+            <line>
+              <![CDATA[step:4 create new contact]]>
+            </line>
+            <line>
+              <![CDATA[step:5 create contact with image]]>
+            </line>
+            <line>
+              <![CDATA[step:7 navigate to contact information page]]>
+            </line>
             <line>
               <![CDATA[Contact created successfully==pass]]>
             </line>
@@ -62,16 +567,40 @@
             </line>
           </reporter-output>
         </test-method> <!-- createContactwithimageTest -->
-        <test-method status="PASS" signature="configLogout()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogout" is-config="true" duration-ms="4321" started-at="2018-03-03T01:38:33Z" finished-at="2018-03-03T01:38:38Z">
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogout" is-config="true" duration-ms="4305" started-at="2018-03-03T13:00:54Z" finished-at="2018-03-03T13:00:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogout -->
-        <test-method status="PASS" signature="configLogin()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogin" is-config="true" duration-ms="3698" started-at="2018-03-03T01:38:38Z" finished-at="2018-03-03T01:38:41Z">
+        <test-method status="PASS" signature="configLogin()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogin" is-config="true" duration-ms="3979" started-at="2018-03-03T13:00:58Z" finished-at="2018-03-03T13:01:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogin -->
-        <test-method status="PASS" signature="createContactWithOrganisationTest()[pri:3, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="createContactWithOrganisationTest" duration-ms="22855" started-at="2018-03-03T01:38:41Z" finished-at="2018-03-03T01:39:04Z">
+        <test-method status="PASS" signature="createContactWithOrganisationTest()[pri:3, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="createContactWithOrganisationTest" duration-ms="21720" started-at="2018-03-03T13:01:02Z" finished-at="2018-03-03T13:01:24Z">
           <reporter-output>
+            <line>
+              <![CDATA[=======create Contact With Organisation Test========]]>
+            </line>
+            <line>
+              <![CDATA[step:2 get data from excel file]]>
+            </line>
+            <line>
+              <![CDATA[step:3 create organisation]]>
+            </line>
+            <line>
+              <![CDATA[organisation created successfullly]]>
+            </line>
+            <line>
+              <![CDATA[step:4 navigate to contact]]>
+            </line>
+            <line>
+              <![CDATA[step:5 create new contact]]>
+            </line>
+            <line>
+              <![CDATA[step:6 verification]]>
+            </line>
+            <line>
+              <![CDATA[step:7 navigate to contact information page]]>
+            </line>
             <line>
               <![CDATA[Contact created successfully==pass]]>
             </line>
@@ -80,15 +609,15 @@
             </line>
           </reporter-output>
         </test-method> <!-- createContactWithOrganisationTest -->
-        <test-method status="PASS" signature="configLogout()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configLogout" is-config="true" duration-ms="4336" started-at="2018-03-03T01:39:04Z" finished-at="2018-03-03T01:39:08Z">
+        <test-method status="PASS" signature="configLogout()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configLogout" is-config="true" duration-ms="4274" started-at="2018-03-03T13:01:24Z" finished-at="2018-03-03T13:01:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configLogout -->
-        <test-method status="PASS" signature="configBrowserClose()[pri:0, instance:crm.Crm.ContactTest.CreateContactTest@5e5792a0]" name="configBrowserClose" is-config="true" duration-ms="999" started-at="2018-03-03T01:39:08Z" finished-at="2018-03-03T01:39:09Z">
+        <test-method status="PASS" signature="configBrowserClose()[pri:0, instance:com.crm.ContactTest.CreateContactTest@68c4039c]" name="configBrowserClose" is-config="true" duration-ms="1061" started-at="2018-03-03T13:01:28Z" finished-at="2018-03-03T13:01:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- configBrowserClose -->
-      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+      </class> <!-- com.crm.ContactTest.CreateContactTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

@@ -2,36 +2,30 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
   <test name="Test(failed)">
-    <groups>
-      <run>
-        <include name="smoketest"/>
-      </run>
-    </groups>
     <classes>
-      <class name="crm.Crm.ContactTest.CreateContactTest">
+      <class name="com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest">
+        <methods>
+          <include name="DeleteOrgWhenOrgContainsContact_OppTest"/>
+          <include name="createOpertunity_using_org_campaignTest"/>
+        </methods>
+      </class> <!-- com.crm.EndToEndTest.CreateOpertunity_using_org_campaignTest -->
+      <class name="com.crm.OrganizationTest.CreateOganisationTest">
         <methods>
           <include name="configLunchBrowser"/>
           <include name="configLogout"/>
           <include name="configLogin"/>
           <include name="configBrowserClose"/>
         </methods>
-      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
-      <class name="com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest">
+      </class> <!-- com.crm.OrganizationTest.CreateOganisationTest -->
+      <class name="com.crm.ContactTest.CreateContactTest">
         <methods>
+          <include name="createContactwithimageTest"/>
           <include name="configLunchBrowser"/>
           <include name="configLogout"/>
           <include name="configLogin"/>
-          <include name="configBrowserClose"/>
+          <include name="createContactWithOrganisationTest"/>
         </methods>
-      </class> <!-- com.Com.EndToEndTest.CreateOpertunity_using_org_campaignTest -->
-      <class name="com.Com.OrganizationTest.CreateOganisationTest">
-        <methods>
-          <include name="createOganisationTest"/>
-          <include name="configLunchBrowser"/>
-          <include name="configLogout"/>
-          <include name="configLogin"/>
-        </methods>
-      </class> <!-- com.Com.OrganizationTest.CreateOganisationTest -->
+      </class> <!-- com.crm.ContactTest.CreateContactTest -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

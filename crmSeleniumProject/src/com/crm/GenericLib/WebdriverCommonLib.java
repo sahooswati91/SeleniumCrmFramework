@@ -1,4 +1,4 @@
-package com.Com.GenericLib;
+package com.crm.GenericLib;
 
 import java.awt.AWTException;
 import java.awt.Robot;

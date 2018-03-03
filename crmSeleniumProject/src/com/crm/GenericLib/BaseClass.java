@@ -1,4 +1,4 @@
-package com.Com.GenericLib;
+package com.crm.GenericLib;
 
 import java.util.Properties;
 import java.util.Random;
@@ -19,7 +19,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
-import com.Com.GenericLib.CommonUtils;
+import com.crm.GenericLib.CommonUtils;
 import com.crm.objectrepositoryLib.Common;
 import com.crm.objectrepositoryLib.LogIn;
 

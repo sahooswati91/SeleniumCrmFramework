@@ -1,4 +1,4 @@
-package com.Com.GenericLib;
+package com.crm.GenericLib;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
