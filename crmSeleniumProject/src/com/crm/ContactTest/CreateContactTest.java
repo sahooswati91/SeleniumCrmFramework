@@ -49,6 +49,7 @@ public class CreateContactTest extends BaseClass {
 		String lastName=lib.returnData("Sheet1",1,2);
 		Reporter.log(lastName,true);
 //		step:3 navigate to contact
+//		step
 		Reporter.log("step:3 navigate to contact",true);
 		Home homepage=PageFactory.initElements(driver, Home.class);
 		homepage.navigateToContact();
