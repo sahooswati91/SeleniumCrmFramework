@@ -33,17 +33,23 @@ import com.crm.objectrepositoryLib.ContactInformation;
 import com.crm.objectrepositoryLib.Contacts;
 import com.crm.objectrepositoryLib.CreatingNewContacts;
 import com.crm.objectrepositoryLib.Home;
+import com.relevantcodes.extentreports.ExtentTest;
+import com.relevantcodes.extentreports.LogStatus;
 @Listeners (com.crm.GenericLib.SampleListener.class)
 public class CreateContactTest extends BaseClass {
 	@Test (groups="smoketest",priority=1)
         public void createContact() throws Throwable{
-		Reporter.log("=======Create Contact Test========",true);
+		ExtentTest log=extent.startTest("createContact");
+//		Reporter.log("=======Create Contact Test========",true);
+		log.log(LogStatus.INFO, "log in to app by extent report");
 		  CommonUtils lib=new CommonUtils();
 //		step:2  get data from excel sheet
-		Reporter.log("step:2  get data from excel sheet",true);
+//		Reporter.log("step:2  get data from excel sheet",true);
+		  log.log(LogStatus.INFO, "step:2  get data from excel sheet by extent report");
 		String lastName=lib.returnData("Sheet1",1,2);
 		Reporter.log(lastName,true);
 //		step:3 navigate to contact
+//		step
 		Reporter.log("step:3 navigate to contact",true);
 		Home homepage=PageFactory.initElements(driver, Home.class);
 		homepage.navigateToContact();
@@ -61,8 +67,10 @@ public class CreateContactTest extends BaseClass {
 		String expectedContact=cinfoPage.getLastnameContactInfo().getText();
 		SoftAssert a1=new SoftAssert();
 		a1.assertEquals(lastName.trim(),expectedContact.trim());
-		Reporter.log("Contact created successfully==pass",true);
+		log.log(LogStatus.PASS, "Contact created successfully==pass");
+//		Reporter.log("Contact created successfully==pass",true);
 		a1.assertAll();
+		extent.endTest(log);
 	}
 	@Test (groups="regressiontest",priority=2)
 public static void createContactwithimageTest() throws Throwable {

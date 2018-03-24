@@ -39,7 +39,7 @@ public class SampleListener implements ITestListener {
 		
         File sourcFile=eDriver.getScreenshotAs(OutputType.FILE);
         
-        File dstFile=new File("./screenShot"+testName+".png");
+        File dstFile=new File("./screenShot/"+testName+".png");
         try{
         FileUtils.copyFile(sourcFile, dstFile);
         }
