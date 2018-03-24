@@ -1,5 +1,6 @@
 package com.crm.GenericLib;
 
+import java.io.File;
 import java.util.Properties;
 import java.util.Random;
 import java.util.concurrent.TimeUnit;
@@ -15,18 +16,34 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 
 import com.crm.GenericLib.CommonUtils;
 import com.crm.objectrepositoryLib.Common;
 import com.crm.objectrepositoryLib.LogIn;
+import com.relevantcodes.extentreports.ExtentReports;
 
 public class BaseClass {
 	public static WebDriver driver;
 	public static Random ran=new Random();
+    public ExtentReports extent;
 //	@Parameters("browser")
+    @BeforeSuite
+    public void configBeforesuite()
+    {
+    	extent=new ExtentReports("./test-output/adv.html");
+    	extent.loadConfig(new File("./extent-config.xml"));
+    }
+    @AfterSuite
+    public void configAftersuite()
+    {
+    	extent.flush();
+    	extent.close();
+    }
 	@BeforeClass(groups={"regressiontest","smoketest"})
 	public void configLunchBrowser() throws Throwable
 	{

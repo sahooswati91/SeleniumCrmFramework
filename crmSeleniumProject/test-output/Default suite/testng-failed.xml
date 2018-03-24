@@ -3,15 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="crm.Crm.ContactTest.CreateContactTest">
+      <class name="com.crm.ContactTest.CreateContactTest">
         <methods>
-          <include name="createContactWithOrganisationTest"/>
+          <include name="createContactwithimageTest"/>
           <include name="configLunchBrowser"/>
           <include name="configLogout"/>
+          <include name="configBeforesuite"/>
           <include name="configLogin"/>
-          <include name="createContactwithimageTest"/>
+          <include name="createContactWithOrganisationTest"/>
         </methods>
-      </class> <!-- crm.Crm.ContactTest.CreateContactTest -->
+      </class> <!-- com.crm.ContactTest.CreateContactTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>3/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Sat Mar 03 01:37:34 IST 2018</td>
+<td>Started on:</td><td>Fri Mar 16 23:30:47 IST 2018</td>
 </tr>
-<tr><td>Total time:</td><td>95 seconds (95890 ms)</td>
+<tr><td>Total time:</td><td>148 seconds (148817 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,290 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.ContactTest.CreateContactTest.configLogin()'><b>configLogin</b><br>Test class: com.crm.ContactTest.CreateContactTest</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;user_name&quot;}
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d61a5bc5-86cf-4474-8a25-cd89655c4c48
+*** Element info: {Using=name, value=user_name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.crm.objectrepositoryLib.LogIn.logIn(LogIn.java:12)
+	at com.crm.GenericLib.BaseClass.configLogin(BaseClass.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;user_name&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1544614339", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1544614339'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;user_name&quot;}
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d61a5bc5-86cf-4474-8a25-cd89655c4c48
+*** Element info: {Using=name, value=user_name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByName(RemoteWebDriver.java:461)
+	at org.openqa.selenium.By$ByName.findElement(By.java:303)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.sendKeys(Unknown Source)
+	at com.crm.objectrepositoryLib.LogIn.logIn(LogIn.java:12)
+	at com.crm.GenericLib.BaseClass.configLogin(BaseClass.java:83)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:510)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:211)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:585)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;name&quot;,&quot;selector&quot;:&quot;user_name&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div></td>
+<td>0</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED CONFIGURATIONS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.ContactTest.CreateContactTest.configLogout()'><b>configLogout</b><br>Test class: com.crm.ContactTest.CreateContactTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
+<tr>
+<td title='com.crm.ContactTest.CreateContactTest.configBrowserClose()'><b>configBrowserClose</b><br>Test class: com.crm.ContactTest.CreateContactTest</td>
+<td></td>
+<td>0</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.crm.ContactTest.CreateContactTest.createContactwithimageTest()'><b>createContactwithimageTest</b><br>Test class: com.crm.ContactTest.CreateContactTest<br/>
+<a href="#Output-888611662" onClick='toggleBox("Output-888611662", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888611662" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888611662">
+=======create Contact with imageTest========<br/>
+step:2 get data from excel file<br/>
+step:3 navigate to contact<br/>
+step:4 create new contact<br/>
+step:5 create contact with image<br/>
+step:7 navigate to contact information page<br/>
+</div>
+</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mouseArea_Last Name&quot;}
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d61a5bc5-86cf-4474-8a25-cd89655c4c48
+*** Element info: {Using=id, value=mouseArea_Last Name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.crm.ContactTest.CreateContactTest.createContactwithimageTest(CreateContactTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mouseArea_Last Name&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div><a href='#' onClick='toggleBox("stack-trace888611662", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace888611662'><pre>org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mouseArea_Last Name&quot;}
+Command duration or timeout: 30.13 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: d61a5bc5-86cf-4474-8a25-cd89655c4c48
+*** Element info: {Using=id, value=mouseArea_Last Name}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:363)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementById(RemoteWebDriver.java:413)
+	at org.openqa.selenium.By$ById.findElement(By.java:218)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:355)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.crm.ContactTest.CreateContactTest.createContactwithimageTest(CreateContactTest.java:96)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:354)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:312)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:261)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1215)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+	at org.testng.TestNG.run(TestNG.java:1048)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {&quot;method&quot;:&quot;id&quot;,&quot;selector&quot;:&quot;mouseArea_Last Name&quot;}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;2.53.1&apos;, revision: &apos;a36b8b1&apos;, time: &apos;2016-06-30 17:32:46&apos;
+System info: host: &apos;Swati-PC&apos;, ip: &apos;192.168.164.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10770)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/Users/D7768~1.SHA/AppData/Local/Temp/anonymous3707531445165693804webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:625)
+</pre></div></td>
+<td>54</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,43 +359,35 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='crm.Crm.ContactTest.CreateContactTest.createContact()'><b>createContact</b><br>Test class: crm.Crm.ContactTest.CreateContactTest<br/>
-<a href="#Output-1262408432" onClick='toggleBox("Output-1262408432", this, "Show output", "Hide output");'>Show output</a>
+<td title='com.crm.ContactTest.CreateContactTest.createContact()'><b>createContact</b><br>Test class: com.crm.ContactTest.CreateContactTest<br/>
+<a href="#Output-671596011" onClick='toggleBox("Output-671596011", this, "Show output", "Hide output");'>Show output</a>
 
-<a href="#Output-1262408432" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1262408432">
+<a href="#Output-671596011" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-671596011">
+16swati11<br/>
+step:3 navigate to contact<br/>
+step:4 create new contact<br/>
+step:5 verification<br/>
+step:6 navigate to contact information page<br/>
 Contact created successfully==pass<br/>
 </div>
 </td>
 <td></td>
-<td>13</td>
-<td>crm.Crm.ContactTest.CreateContactTest@5e5792a0</td></tr>
+<td>26</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='crm.Crm.ContactTest.CreateContactTest.createContactWithOrganisationTest()'><b>createContactWithOrganisationTest</b><br>Test class: crm.Crm.ContactTest.CreateContactTest<br/>
-<a href="#Output-2008106788" onClick='toggleBox("Output-2008106788", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-2008106788" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-2008106788">
-Contact created successfully==pass<br/>
-Organisation created successfully==pass<br/>
-</div>
-</td>
+<td title='com.crm.ContactTest.CreateContactTest.createContactWithOrganisationTest()'><b>createContactWithOrganisationTest</b><br>Test class: com.crm.ContactTest.CreateContactTest</td>
 <td></td>
-<td>22</td>
-<td>crm.Crm.ContactTest.CreateContactTest@5e5792a0</td></tr>
-<tr>
-<td title='crm.Crm.ContactTest.CreateContactTest.createContactwithimageTest()'><b>createContactwithimageTest</b><br>Test class: crm.Crm.ContactTest.CreateContactTest<br/>
-<a href="#Output-1937380187" onClick='toggleBox("Output-1937380187", this, "Show output", "Hide output");'>Show output</a>
-
-<a href="#Output-1937380187" onClick="toggleAllBoxes();">Show all outputs</a>
-<div class='log' id="Output-1937380187">
-Contact created successfully==pass<br/>
-Contact created with image==pass<br/>
-</div>
-</td>
-<td></td>
-<td>27</td>
-<td>crm.Crm.ContactTest.CreateContactTest@5e5792a0</td></tr>
+<td>0</td>
+<td>com.crm.ContactTest.CreateContactTest@343f4d3d</td></tr>
 </table><p>
 </body>
 </html>
